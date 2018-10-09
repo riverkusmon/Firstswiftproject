@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E5FD55C3216D214B00E41589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD55C2216D214B00E41589 /* AppDelegate.swift */; };
-		E5FD55C5216D214B00E41589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD55C4216D214B00E41589 /* ViewController.swift */; };
+		E5FD55C5216D214B00E41589 /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD55C4216D214B00E41589 /* ColorChangeViewController.swift */; };
 		E5FD55C8216D214B00E41589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FD55C6216D214B00E41589 /* Main.storyboard */; };
 		E5FD55CA216D215200E41589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FD55C9216D215200E41589 /* Assets.xcassets */; };
 		E5FD55CD216D215200E41589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FD55CB216D215200E41589 /* LaunchScreen.storyboard */; };
+		E5FD55D9216D26FE00E41589 /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD55D8216D26FE00E41589 /* ColorTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5FD55BF216D214B00E41589 /* Firstproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firstproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FD55C2216D214B00E41589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5FD55C4216D214B00E41589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5FD55C4216D214B00E41589 /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 		E5FD55C7216D214B00E41589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5FD55C9216D215200E41589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5FD55CC216D215200E41589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5FD55CE216D215200E41589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FD55D8216D26FE00E41589 /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,10 @@
 		E5FD55C1216D214B00E41589 /* Firstproject */ = {
 			isa = PBXGroup;
 			children = (
+				E5FD55D7216D266300E41589 /* Model */,
 				E5FD55D4216D240700E41589 /* Resources */,
-				E5FD55C4216D214B00E41589 /* ViewController.swift */,
-				E5FD55C6216D214B00E41589 /* Main.storyboard */,
-				E5FD55CB216D215200E41589 /* LaunchScreen.storyboard */,
+				E5FD55D5216D261000E41589 /* Controller */,
+				E5FD55D6216D265600E41589 /* View */,
 			);
 			path = Firstproject;
 			sourceTree = "<group>";
@@ -70,6 +72,31 @@
 				E5FD55CE216D215200E41589 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5FD55D5216D261000E41589 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD55C4216D214B00E41589 /* ColorChangeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5FD55D6216D265600E41589 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD55C6216D214B00E41589 /* Main.storyboard */,
+				E5FD55CB216D215200E41589 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5FD55D7216D266300E41589 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD55D8216D26FE00E41589 /* ColorTool.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5FD55C5216D214B00E41589 /* ViewController.swift in Sources */,
+				E5FD55C5216D214B00E41589 /* ColorChangeViewController.swift in Sources */,
 				E5FD55C3216D214B00E41589 /* AppDelegate.swift in Sources */,
+				E5FD55D9216D26FE00E41589 /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
